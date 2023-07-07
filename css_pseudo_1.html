@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Test</title>
+    <style>
+        a:link{
+            /*방문하지 않은 사이트*/
+            color:black;
+        }
+        a:visited{
+            /*방문한 사이트*/
+            color:red;
+        }
+        a:hover{
+            /*마우스가 올려지면*/
+            color:yellow;
+        }
+        a:active{
+            /*마우스가 클릭 되면*/
+            color:green;
+        }
+        a:focus{
+            /*뒤에 쓰는게 좋음 코드가 밑에 있을수록 우선순위가 낮음
+            Tab키를 누르면 나오는 네모칸*/
+            color:white;
+        }
+        input:focus{
+            /*입력창 포커스*/
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href = "index.html">HTML</a></h1>
+    <a href = "https://yhj0318.github.io/MyPage/">방문함</a>
+    <a href = "https://a.a">방문안함</a>
+    <input type="text">
+</body>
+</html>
