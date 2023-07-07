@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Test</title>
+</head>
+<body>
+    <h1><a href = "index.html">HTML</a></h1>
+    <div id ="table">
+        <table border = "2">
+            <p>tr = table row, th = table head(bold font), td = table body</p>
+            <p>rowspan = 열합치기, colspan = 행합치기</p>
+            <thead>
+                <tr>
+                <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>염형준</td> <td>남자</td> <td rowspan = "2">원주</td> <td>500</td>
+                </tr>
+                <tr>
+                    <td>유다인</td> <td>여자</td> <td>1500</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan = "3">합계</td> <td>2000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
