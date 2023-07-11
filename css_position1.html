@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Test</title>
+    <style>
+        html{
+            border:1px solid gray;
+        }
+        div{
+            border:5px solid tomato;
+            margin:10px;
+        }
+        #me{
+            /* 그냥 left, top 오프셋을 설정 하면 이동이 안되고 
+            position:relative;를 사용하면 상대적 이게 이동이 가능하다. */
+            position:relative;
+            /* static은 정적이기에 디폴트값이다. */
+            /* position:static; */
+            /* 위치는 밑에 있는 순서대로 우선순위임 */
+            left:100px;
+            right:100px;
+            top:100px;
+            bottom:100px;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href = "index.html">HTML</a></h1>
+    <div id="other">other</div>
+    <div id="parent">
+        parent
+        <div id="me">me</div>
+    </div>
+</body>
+</html>
