@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Test</title>
+    <style>
+        img{
+            /* 효과가 서서히 나타나고 사라짐 */
+            transition:all 1s;
+        }
+        /* hover 이미지에 마우스를 올려두면 효과가 나옴 */
+        img:hover{
+            /* 필터의 효과를 얼마나 줄지 결정 */
+            -webkit-filter:grayscale(100%) blur(3px);
+            -o-filter: grayscale(100%)blur(3px);
+            filter:grayscale(100%)blur(3px);
+        }
+        h2{
+            /* 모자이크같은 효과를 줌 */
+            -webkit-filter:blur(3px);
+            -o-filter: blur(3px);
+            filter:blur(3px);
+        }
+    </style>
+</head>
+<body>
+    <h1><a href = "index.html">HTML</a></h1>
+    <h2>Dog</h2>
+    <img src="images/dog.jpg" alt="">
+</body>
+</html>
