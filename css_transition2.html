@@ -6,6 +6,10 @@
     <title>HTML Sample Test</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Londrina+Outline|Open+Sans+Condensed:300" rel="stylesheet">
     <style>
+        body{
+            background-color: black;
+            transition:all 1s;
+        }
         div{
             background-color: black;
             color:white;
@@ -22,7 +26,8 @@
         }
     </style>
 </head>
-<body>
+<!-- 자바스크립트 명령어 -->
+<body onload="document.querySelector('body').style.backgroundColor='white';">
     <h1><a href = "index.html">HTML</a></h1>
     <div>
         TRANSITION
