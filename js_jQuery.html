@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js_jQuery.js"></script>
+    <title>HTML Sample Test</title>
+</head>
+<body>
+    <h1><a href = "index.html">HTML</a></h1>
+    <ul id="list">
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+    </ul>
+    <input type="button" value="execute" id="execute_btn">
+    <script>
+        /* 버튼을 클릭하면 아이디값이 list인 하위 li태그들을 한번에 치환함*/
+        $('#execute_btn').click(function()
+        {
+            $('#list li').text('coding everybody');
+        })
+    </script>
+</body>
+</html>
