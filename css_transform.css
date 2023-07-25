@@ -1,0 +1,15 @@
+h2{
+    background-color: deepskyblue;
+    color:white;
+    display:inline-block;
+    padding:5px;
+    font-size:3rem;
+    margin:100px;
+    /* 이 태그에 대한 변형 */
+    transform:
+    /* 크기를 절반으로 줄임 */
+        /* scaleX(0.5)  */
+        /* scaleY(0.5) */
+        /* scale 축약형 */
+        scale(0.5, 0.5);
+}

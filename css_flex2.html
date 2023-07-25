@@ -4,33 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Sample Test</title>
-    <style>
-        .container{
-            background-color: powderblue;
-            display:flex;
-            height: 200px;
-            flex-direction: row;
-        }
-        .item{
-            background-color: tomato;
-            color:white;
-            border:1px solid white;
-            /* grow 여백을 균등하게 채움 */
-            /* flex-grow:0; */
-        }
-        .item:nth-child(1){
-            flex-basis: 150px;
-            flex-shrink: 1;
-        }
-        /* item 클래스의 2번째 자식만 */
-        .item:nth-child(2){
-            /* flex-grow:2; */
-            flex-basis:150px;
-            /* 컨테이너의 크기가 줄어들면 2가 줄어듬 
-            크기가 클수록 더 빨리 줄어듬*/
-            flex-shrink: 2;
-        }
-    </style>
+    <link rel="stylesheet" href="css_flex2.css">
 </head>
 <body>
     <h1><a href = "index.html">HTML</a></h1>

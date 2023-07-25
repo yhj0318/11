@@ -1,0 +1,16 @@
+.container{
+    background-color: powderblue;
+    /* 무조건 부모 엘리먼트에 display해야함 
+    각각의 태그가 화면 전체를 차지함, height 200이면 200만큼 차지함*/
+    display:flex;
+    height: 200px;
+    /* 반대로 가서 정렬 row는 기본값*/
+    /* flex-direction: row-reverse; */
+    /* column은 수직방향으로 정렬 */
+    flex-direction: column-reverse;
+}
+.item{
+    background-color: tomato;
+    color:white;
+    border:1px solid white;
+}

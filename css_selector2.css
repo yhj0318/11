@@ -1,0 +1,8 @@
+li{
+    color:red;
+    text-decoration:underline;
+}
+#select{
+    /*id값이 select인 해당부분만 바꾼다.*/
+    font-size: 50px;
+}

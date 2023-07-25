@@ -1,0 +1,9 @@
+/* float태그는 이미지 옆에 글을 표시하도록 함*/
+img{
+    width:300px;
+    float:left;
+    margin:20px;
+}
+p{
+    border:1px solid gray;
+}

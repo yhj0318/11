@@ -1,0 +1,13 @@
+p, a{
+    /* 테두리를 만드는 것은 기준점을 제공함 */
+    border:10px solid red;
+    /* 패딩으로 테두리를 늘림 */
+    padding:20px;
+    /* 본문과 바디의 간격을 띄움 */
+    margin:40px;
+    /* 테두리의 폭 */
+    /* a태그 인라인 엘리먼트는 width height를 무시한다. */
+    width:100px;
+    /* 테두리의 높이 */
+    /* height: 50px; */
+}

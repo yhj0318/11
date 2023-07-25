@@ -1,0 +1,5 @@
+/*캐스케이딩에는 우선순위가 존재함
+!important는 우선순위를 무시함*/
+li{color:red;}
+#idsel{color:blue !important;}
+.clsssel{color:green;}

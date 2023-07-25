@@ -1,0 +1,20 @@
+div{
+    font-size: 100px;
+    height:600px;
+    border:5px solid gray;
+    /* 배경색 */
+    background-color:tomato;
+    /* 배경에 이미지 넣는 방법 */
+    background-image:url(images/url.jpg);
+    /* 이미지 반복 or 반복하지않는 방법 */
+    background-repeat: no-repeat;
+    /* 배경만 스크롤이 안되게 하는 방법 */
+    background-attachment: fixed;
+    /* cover는 이미지에 화면을 맞춤
+    contain은 화면에 이미지를 맞춤*/
+    background-size:contain;
+    /* 반복되지 않는 이미지일 경우 위치를 지정해줄 수 있음 */
+    /* background-position:center; */
+    /* 축약형으로 쓸 수 있음 */
+    background: tomato url('images/url.jpg') no-repeat fixed center;
+}

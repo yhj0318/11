@@ -1,0 +1,10 @@
+#parent{
+    /* 부모자식 관계에서도 마찬가지로 마진이 큰 쪽을 따르고
+    자식은 100px을 넘을때까지 위치가 변경되지 않는다. */
+    border:1px solid red;
+    margin-top: 100px;
+}
+#child{
+    background-color: powderblue;
+    margin-top:50px;
+}

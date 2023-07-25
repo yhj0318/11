@@ -1,0 +1,7 @@
+/*CSS를 사용하는 태그
+선택자태그를 하여 li태그가 붙은 텍스트는 전부 CSS스타일로 변경한다.
+underline을 하여 밑줄을 생성한다.*/
+li{
+    color:red;
+    text-decoration:underline;
+}

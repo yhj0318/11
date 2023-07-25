@@ -1,0 +1,12 @@
+ul li{
+    /*ul 밑에 li태그를 가진 자식들에 해당*/
+    color:red;
+}
+#lecture>li{
+    /*lecture 바로 밑에 li에만 해당한다.*/
+    border: 1px solid red;
+}
+ul, ol{
+    /* , 를 사용하면 한번에 동작 가능*/
+    background-color: powderblue;
+}

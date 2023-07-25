@@ -1,0 +1,10 @@
+h2, a{
+    border:1px solid red;
+}
+/* 각각 스타일을 지정해줄 수 있다. */
+h2{
+    display:inline;
+}
+a{
+    display:block;
+}

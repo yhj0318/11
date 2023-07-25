@@ -1,0 +1,26 @@
+a:link{
+    /*방문하지 않은 사이트*/
+    color:black;
+}
+a:visited{
+    /*방문한 사이트*/
+    color:red;
+}
+a:hover{
+    /*마우스가 올려지면*/
+    color:yellow;
+}
+a:active{
+    /*마우스가 클릭 되면*/
+    color:green;
+}
+a:focus{
+    /*뒤에 쓰는게 좋음 코드가 밑에 있을수록 우선순위가 낮음
+    Tab키를 누르면 나오는 네모칸*/
+    color:white;
+}
+input:focus{
+    /*입력창 포커스*/
+    background-color: black;
+    color:white;
+}

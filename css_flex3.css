@@ -1,0 +1,37 @@
+/* 컨테이너를 칼럼으로 하고 부모이기에 display:flex */
+.container{
+    display:flex;
+    flex-direction:column;
+}
+/* 헤더는 제목 */
+header{
+    border-bottom:1px solid gray;
+    padding-left:20px;
+}
+/* 풋터는 맨밑에 페이지 */
+footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+}
+/* 컨텐츠는 리스트를 나눈 부모태그 섹션이기에 display:flex */
+.content{
+    display:flex;
+}
+/* nav 태그 오른쪽에 줄을 그어 구분*/
+.content nav{
+    border-right: 1px solid gray;
+}
+/* aside 태그 왼쪽에 줄을 그어 구분  */
+.content aside{
+    border-left: 1px solid gray;
+}
+/* 각 태그별로 크기를 지정해줌 */
+nav, aside{
+    flex-basis:150px;
+    flex-shrink:0;
+}
+/* main 컨텐츠의 간격을 padding 10px */
+main{
+     padding:10px;
+}

@@ -5,25 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Sample Test</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Londrina+Outline|Open+Sans+Condensed:300" rel="stylesheet">
-    <style>
-        a{
-            font-size:3rem;
-            display:inline-block;
-            /* 모든 효과에 대해서 변환이 일어난다 */
-            /* transition-property: font-size transform; */
-            /* 클릭하는 효과 */
-            /* transition-duration: 0.1s; */
-            /* 폰트사이즈를 1초동안 줄이고, 이동효과는 0.1초 동안 일어나게 함 */
-            transition: font-size 1s, transform 0.1s;
-            /* 누른상태에서 1초 뒤에 효과가 나옴 */
-            transition-delay: 1s;
-        }
-        /* 클릭했을때 */
-        a:active{
-            transform:translate(20px, 20px);
-            font-size:2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="css_transition1.css">
 </head>
 <body>
     <h1><a href = "index.html">HTML</a></h1>

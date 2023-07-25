@@ -1,0 +1,5 @@
+h2{
+    /* 마진겹침현상은 더 큰 마진을 가진 태그에 맞춰진다. */
+    border:1px solid red;
+    margin:100px;
+}

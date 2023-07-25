@@ -1,0 +1,5 @@
+p{
+    /*자간을 가변으로 바꿔서 좌우 균등하게 맞춰줌*/
+    text-align: justify;
+    border: 1px solid gray;
+}

@@ -1,0 +1,15 @@
+*{
+    /* border의 두께가 다르지만 자동으로 맞춰줌
+    크기를 지정해줄때 전체에 해당하도록 하는게 좋음*/
+    box-sizing: border-box;
+}
+div{
+    margin:10px;
+    width:200px;
+}
+#small{
+    border:10px solid black;
+}
+#large{
+    border:30px solid black;
+}
